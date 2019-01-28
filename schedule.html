@@ -3,13 +3,20 @@
   <title>WRA 410 Schedule</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <style>
+    .main{
+      display: grid;
+      grid-template-columns: 15% 85%;
+    }
+    .main > div{
+      background-color: #ddd;
+    }
     .wrapper{
       display:grid;
       grid-template-columns: 25% 40% 35%;
     }
     .wrapper > div{
       background: #eee;
-      padding:1em;
+      padding: 1em;
     }
     .wrapper > div:nth-child(3n+2){
       background: #ddd;
@@ -19,6 +26,17 @@
 </head>
 <body>
   <h1><center><h1>WRA 410 Schedule</h1></center></h1>
+  <div id= "container">
+  <div class = "main">
+  <div id = "nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+        <li><a href="resources.html">Resources</a></li>
+    </div>
   <div class = "wrapper">
     <div class =schedule-date>
       Week 1 January 8, 10
@@ -246,5 +264,7 @@
             </ul>
           </div>                     
     </div>
+  </div>
+</div>
 </body>
 </html>
