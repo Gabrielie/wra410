@@ -5,7 +5,12 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(211, 119, 34);
+  color: rgb(185, 134, 87);
+  transition: .3s;
+}
+
+a:hover{
+  color: rgb(138, 74, 14);
 }
 
 h1, h2, h3  {

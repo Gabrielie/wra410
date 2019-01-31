@@ -31,10 +31,9 @@ For the font, I tried Gotham and Californian first because they are the brand ty
 
 6. Add navigation to the Schedule webpage.
 * I revised the schedule page and include the navigation bar on the side. 
-* I set a grid template for the web page, that template divided the webpage into two columns, one is the navigation bar, one is the schedule table. 
 
 7. Revise the rows and columns on the Schedule webpage so the information is clearer or prettier.
-* follow what I did in step 6, inside the grid of the schedule table, I set another grid template of 3 columns for the schedule.
+* I revised the rows and columns by giving it a different background color, and double spaced all list so it is easier to read.
 
 other changes:
 * The padding on the left side of the heading was removed, so everything looks well aligned, no weird indent on the left side anymore.
@@ -42,6 +41,7 @@ other changes:
 * Rename all subheadings in the content to <h3> (was <h2>), only the heading of the pages are <h2>, so I can set up different font sizes for them.
 * Double spaced all <ul> and <table> , so they won't squeeze together anymore.
 * the Course Catalog Description on the index page was reformatted to <h3>Reading Response
+* All the link will change to a darker orange when you hover your mouse on it. and that hover color change has a transition effect that takes 0.3 second.
 
 
 
